@@ -78,7 +78,7 @@ function Board() {
 
   const saveScore = async () => {
     try {
-      await fetch('http://localhost:3000/scores', {
+      await fetch('https://sliding-puzzle-api.onrender.com/scores', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
