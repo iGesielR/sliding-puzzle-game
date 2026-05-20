@@ -10,7 +10,7 @@ function Leaderboard() {
   const fetchScores = async () => {
     try {
       const response = await fetch(
-        'http://localhost:3000/scores'
+        'https://sliding-puzzle-api.onrender.com/scores'
       )
 
       const data = await response.json()
